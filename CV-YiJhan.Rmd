@@ -1,0 +1,58 @@
+---
+title: "CV"
+author: "Yi-jhan, Li"
+date: "9/24/2021"
+output:
+  html_document:
+    df_print: paged
+---
+
+### **Name:**<br/>
+Yi-Jhan(Shaka), Li
+
+### **Department address:**<br/> 
+Department of Political Science. 110 North Hall. University of Wisconsin-Madison, Madison. WI53705
+
+### **Email address:**<br/> 
+ysli@wisc.edu
+
+### **Website:**<br/>
+https://sites.google.com/view/yijhanli/home
+
+### **Other contact information:**<br/>
+(608)733-7845
+
+### **Education:**<br/> 
+Master in political science in TungHai University, Taiwan
+
+### **Research experience:**<br/> 
+Research Assistant in Semi-Presidential System
+Research Assistant in EU Defence Integration
+
+### **Teaching experience:**<br/>
+Teaching Assistant in International Politics
+teaching Assistant in regional Integration
+
+### **Conference presentation:**<br/>
+**Yi Jhan, Li.** 2020. "Semi-Presidentialism and Social Movements: A Comparative Analysis of Taiwan and Ukraine." Paper on The Twelfth Semi-Presidentialism and Democracy Conference. May 15. Chiayi: Department of Political Science, Chung Cheng University, Institute of Political Science, Academia Sinica.<br/>
+
+Chun Hao, Chang. & **Li, Yi Jhan.** 2018. “Conflict or Checks and Balances of Power? "Research on the Operation of Refugee Policy in Romania, Slovenia, and Bulgaria during the Cohabitation Period.” Paper on the Chinese Association of Political Science (October 26-27). Tainan: Department of political science, Chenggong University.<br/>
+
+### **Awards and fellowships:**<br/>
+Awardee, Study Abroad Program for Future Scholars in the Humanities and Social Sciences, Ministry of Education 01/ 2021<br/>
+
+Scholarship of Ministry of Foreign Affairs, Republic of China (TAIWAN) 06/2021<br/>
+
+College Student Research Scholarship, Ministry of Science and Technology 02/ 2018<br/>
+
+### **Service/volunteer work:**<br/>
+
+### **professional work experience:**<br/>
+Research assistant & Teaching assistant in Tunghai University
+
+### **Language and skill:** <br/>
+R, Stata, Spss, Excel
+
+### **References:** <br/>
+
+### **Others:** <br/>
