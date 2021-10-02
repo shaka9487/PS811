@@ -1,0 +1,65 @@
+---
+name: Yi-Jhan(Shaka)
+surname: Li
+position: "Visiting Student"
+address: "Department of Political Science, University of Wisconsin-Madison"
+phone: +1 (608) 733 7845
+www: sites.google.com/view/yijhanli/home
+email: "ysli@wisc.edu"
+twitter: jhanshaka
+github: shaka9487
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Some stuff about me
+
+ * I am the graduate student in Political Science
+ * I'm from Taiwan and mainly focus on comparative political economy.
+ * My fields include authoritarian diffusion, repression, and  resilience. 
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Visiting Student", "2021-2022", "UW-Madison", "Wisconsin, USA",
+  "Master of Political Science", "2020-2021", "TungHai University", "Taichung, Taiwan"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+
+# Awards
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  2021, "Ministry of Education", "Study Abroad Program for Future Scholars in the Humanities and Social Sciences",
+  2021, "Ministry of Foreign Affairs", "Scholarship of Ministry of Foreign Affairs, Republic of China (TAIWAN)",
+  2018, "Ministry of Science and Technology", "College Student Research Scholarship"
+) %>% 
+  brief_entries(
+    glue::glue("Awards in {Type}"),
+    Year, 
+    Desc
+  )
+```
+
+# Publications
+
+```{r}
+library(dplyr)
+knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+```
