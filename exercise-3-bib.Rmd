@@ -1,0 +1,77 @@
+---
+title             : "Excercise 3"
+shorttitle        : "Excercise 3"
+
+author: 
+  - name          : "Yi-Jhan(Shaka), Li"
+    affiliation   : "1"
+    email         : "ysli@wisc.edu"
+
+affiliation:
+  - id            : "1"
+    institution   : "University of Wisconsin-Madison"
+
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : no
+mask              : no
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+bibliography: ["IRW.bib"]
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+
+## @reiter2003
+
+  Main argument:
+
+  Data:
+
+  Method:
+
+  Conclusion:
+
+## @musgraveDefendingHierarchyMoon2018
+## @hendersonHiddenPlainSight2013
+## @finnemore1993
+## @sabaratnam2020
+## @barnettPowerInternationalPolitics2005
+## @buzasRacismAntiracismLiberal2021
+## @fearon1995
+## @huiDynamicTheoryInternational2004
+## @moller2014a
+
+ \noindent Main argument:
+ The character of state–society relations at the time of intensified geopolitical competition leads to       different systemwide outcomes with respect to balancing and hegemony.
+
+ Data:
+
+ Method:
+
+ Conclusion:
+
+
+\newpage
+
+# References
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id="refs" custom-style="Bibliography"></div>
+\endgroup
